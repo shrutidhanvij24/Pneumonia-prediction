@@ -42,12 +42,15 @@ You will see the pneumonia detection web interface.
 Upload a chest X-ray image using the upload form.
 Click Predict.
 See the prediction result: whether pneumonia is detected or normal, with confidence score.
-Additional Notes
+🌐Additional Notes
 The app background image (lungs.webp) is optional. You can add your own image in a folder named static or remove the background code in rup-aap.py.
 Make sure your Python virtual environment is activated when running the scripts (optional but recommended).
 The prediction model expects images resized to 150x150 pixels (handled automatically).
 Troubleshooting
 If you get errors loading the model, confirm pneumonia_predictor.h5 is in the same directory as rup-aap.py.
 For dataset issues during training, verify dataset paths and image files.
-✍️ Author
-Shruti Dhanvij
+
+### ✍️ Author
+Shruti Dhanvij  
+Student of Compute Science Engineering & Data Science
+## Thankyou!
